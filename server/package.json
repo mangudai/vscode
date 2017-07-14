@@ -8,7 +8,7 @@
     "node": "*"
   },
   "dependencies": {
-    "mangudai": "^0.1.2",
+    "mangudai": "^0.1.3",
     "vscode-languageserver": "^3.1.0"
   },
   "devDependencies": {
