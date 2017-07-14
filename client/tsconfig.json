@@ -12,8 +12,7 @@
     "lib": [ "es2016" ],
     "newLine": "LF"
   },
-  "exclude": [
-    "node_modules",
-    "server"
+  "include": [
+    "./src/**/*.ts"
   ]
 }
