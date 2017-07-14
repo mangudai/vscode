@@ -2,7 +2,7 @@
 
 > Age of Empires 2 Random Map Scripting support for VS Code and Sublime Text
 
-![Screeshot of syntax highlighting](./screenshot.png)
+![Screeshot of syntax highlighting](screenshot.png)
 
 ## Install
 
@@ -10,10 +10,14 @@ In Visual Studio Code press `Ctrl/Cmd + Shift + X`, then enter `aoe2-rms`.
 
 ## Release Notes
 
+### 0.2.2
+
+- Fixed link to the screenshot in `README.md`.
+
 ### 0.2.1
 
-- Fixed extension description
-- Updated Mangudai to fix linting errors highlighting
+- Fixed extension description.
+- Updated Mangudai to fix linting errors highlighting.
 
 ### 0.2.0
 
