@@ -34,7 +34,7 @@
           ],
           "default": "off",
           "description": "Traces the communication between VSCode and the languageServerExample service."
-        }        
+        }
       }
     }
   },
