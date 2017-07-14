@@ -1,18 +1,21 @@
 {
-  "name": "language-server-example",
+  "name": "language-server-aoe2-rms",
   "description": "Example implementation of a language server in node.",
-  "version": "0.0.1",
-  "author": "Microsoft Corporation",
+  "version": "0.1.0",
+  "author": "Mangudai",
   "license": "MIT",
   "engines": {
     "node": "*"
   },
   "dependencies": {
+    "mangudai": "^0.1.2",
     "vscode-languageserver": "^3.1.0"
   },
   "devDependencies": {
     "@types/node": "^6.0.52",
-    "typescript": "^2.1.5"
+    "tslint": "^5.2.0",
+    "tslint-config-standard": "^5.0.2",
+    "typescript": "^2.4.1"
   },
   "scripts": {
     "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
