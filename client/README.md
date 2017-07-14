@@ -1,13 +1,26 @@
-# README
-## This is the README for your extension "vscode" 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# aoe2-rms
 
-* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets
+> Age of Empires 2 Random Map Scripting support for VS Code and Sublime Text
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+![Screeshot of syntax highlighting](./screenshot.png)
 
-** Enjoy!**
+## Install
+
+- Visual Studio Code: `Ctrl/Cmd + Shift + X`, then `aoe2-rms`
+- Sublime Text (via [Package Control](https://packagecontrol.io/)): `Install Package` in command palette, then `aoe2-rms`
+
+## Release Notes
+
+### 0.1.2
+
+- Fixed highlighting of command blocks that start on the same line: `create_object TOWN_CENTER { ... }`
+- Fixed parsing `if` and `elseif` where identifier is valid but not UPPER_CASE. Identifiers can be almost anything.
+
+### 0.1.1
+
+- Fixed highlighting of inline comments after commands and directives
+- Added meta info: `LICENSE` file, links to the repo in `package.json`
+
+### 0.1.0
+
+- Added syntax highlighting
