@@ -10,6 +10,10 @@ In Visual Studio Code press `Ctrl/Cmd + Shift + X`, then enter `aoe2-rms`.
 
 ## Release Notes
 
+### 0.2.1
+
+- Fixed extension description
+
 ### 0.2.0
 
 - Added linting using [Mangudai](https://github.com/mangudai/mangudai).

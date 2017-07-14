@@ -1,7 +1,7 @@
 {
   "name": "aoe2-rms",
   "displayName": "AoE2 Random Map Scripting",
-  "description": "AoE2 Random Map Scripting support for VS Code and Sublime Text",
+  "description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
   "author": "Mangudai",
   "icon": "icon.png",
   "repository": {
