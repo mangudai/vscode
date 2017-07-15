@@ -12,6 +12,7 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ### 0.2.5
 
+- Added highighting of random blocks and directives inside command blocks.
 - Improved both repo root `README.md` and this one.
 
 ### 0.2.2, 0.2.3, 0.2.4
