@@ -13,7 +13,7 @@
     "url": "https://github.com/mangudai/vscode/issues"
   },
   "license": "MIT",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "publisher": "deltaidea",
   "engines": {
     "vscode": "^1.12.0"
