@@ -10,6 +10,10 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ## Release Notes
 
+### 0.2.6
+
+- Removed extra spaces from block comments: `/* |   */` is now `/* | */` (`|` is where the cursor is after expansion).
+
 ### 0.2.5
 
 - Added highighting of random blocks and directives inside command blocks.
