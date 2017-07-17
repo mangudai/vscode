@@ -10,6 +10,10 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ## Release Notes
 
+### 0.2.7, 0.2.8
+
+- Allowed identifiers to start with digits.
+
 ### 0.2.6
 
 - Removed extra spaces from block comments: `/* |   */` is now `/* | */` (`|` is where the cursor is after expansion).
