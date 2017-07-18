@@ -10,7 +10,7 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ## Release Notes
 
-### 0.2.7, 0.2.8
+### 0.2.7, 0.2.8, 0.2.9
 
 - Allowed identifiers to start with digits.
 
