@@ -1,9 +1,7 @@
 {
 	"name": "aoe2-rms-client",
-	"displayName": "AoE2 Random Map Scripting",
 	"description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
 	"author": "Mangudai",
-	"icon": "icon.png",
 	"license": "MIT",
 	"version": "0.3.0",
 	"publisher": "deltaidea",
