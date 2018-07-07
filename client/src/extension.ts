@@ -1,26 +1,26 @@
-'use strict'
-
-import * as path from 'path'
-
+import { join } from 'path'
 import { ExtensionContext } from 'vscode'
 import { LanguageClient, LanguageClientOptions, ServerOptions, TransportKind } from 'vscode-languageclient'
 
+let client: LanguageClient
+
 export function activate (context: ExtensionContext) {
 
-  let serverModule = context.asAbsolutePath(path.join('server', 'server.js'))
-  let debugOptions = { execArgv: ['--nolazy', '--debug=6009'] }
+  let serverModule = context.asAbsolutePath(join('server', 'out', 'server.js'))
 
   let serverOptions: ServerOptions = {
-    run : { module: serverModule, transport: TransportKind.ipc },
-    debug: { module: serverModule, transport: TransportKind.ipc, options: debugOptions }
+    run: { module: serverModule, transport: TransportKind.ipc },
+    debug: { module: serverModule, transport: TransportKind.ipc, options: { execArgv: ['--nolazy', '--inspect=6009'] } }
   }
 
   let clientOptions: LanguageClientOptions = {
     documentSelector: ['aoe2-rms']
   }
 
-  let disposable = new LanguageClient('aoe2-rms', 'AoE2 RMS Language Server', serverOptions, clientOptions).start()
+  client = new LanguageClient('aoe2-rms', 'AoE2 RMS Language Server', serverOptions, clientOptions)
+  client.start()
+}
 
-  // Push the disposable to the context's subscriptions so that the client can be deactivated on extension deactivation.
-  context.subscriptions.push(disposable)
+export async function deactivate () {
+  return client ? client.stop() : undefined
 }

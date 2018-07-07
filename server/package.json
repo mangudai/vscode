@@ -1,24 +1,23 @@
 {
-  "name": "language-server-aoe2-rms",
-  "description": "Example implementation of a language server in node.",
-  "version": "0.1.0",
-  "author": "Mangudai",
-  "license": "MIT",
-  "engines": {
-    "node": "*"
-  },
-  "dependencies": {
-    "mangudai": "^0.1.3",
-    "vscode-languageserver": "^3.1.0"
-  },
-  "devDependencies": {
-    "@types/node": "^6.0.52",
-    "tslint": "^5.2.0",
-    "tslint-config-standard": "^5.0.2",
-    "typescript": "^2.4.1"
-  },
-  "scripts": {
-    "compile": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc -p .",
-    "watch": "installServerIntoExtension ../client ./package.json ./tsconfig.json && tsc --watch -p ."
-  }
+	"name": "aoe2-rms-server",
+	"description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
+	"version": "0.3.0",
+	"author": "Mangudai",
+	"license": "MIT",
+	"engines": {
+		"node": "*"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mangudai/vscode.git"
+	},
+	"homepage": "https://github.com/mangudai/vscode",
+	"bugs": {
+		"url": "https://github.com/mangudai/vscode/issues"
+	},
+	"dependencies": {
+		"mangudai": "0.2.3",
+		"vscode-languageserver": "4.2.1"
+	},
+	"scripts": {}
 }

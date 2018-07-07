@@ -10,6 +10,14 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ## Release Notes
 
+### 0.3.0
+
+- Updated for latest VS Code
+- Fixed syntax error on negative numbers
+- Fixed various edge cases in linter
+- Allowed nested comments
+- Changed error messages to be clearer
+
 ### 0.2.7, 0.2.8, 0.2.9
 
 - Allowed identifiers to start with digits.

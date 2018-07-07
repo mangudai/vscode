@@ -1,67 +1,29 @@
 {
-  "name": "aoe2-rms",
-  "displayName": "AoE2 Random Map Scripting",
-  "description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
-  "author": "Mangudai",
-  "icon": "icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mangudai/vscode.git"
-  },
-  "homepage": "https://github.com/mangudai/vscode",
-  "bugs": {
-    "url": "https://github.com/mangudai/vscode/issues"
-  },
-  "license": "MIT",
-  "version": "0.2.9",
-  "publisher": "deltaidea",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Languages"
-  ],
-  "activationEvents": [
-    "onLanguage:aoe2-rms"
-  ],
-  "main": "./out/extension",
-  "contributes": {
-    "languages": [
-      {
-        "id": "aoe2-rms",
-        "aliases": [
-          "AoE2 Random Map Script",
-          "aoe2-rms"
-        ],
-        "extensions": [
-          ".rms"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "aoe2-rms",
-        "scopeName": "source.aoe2-rms",
-        "path": "./aoe2-rms.tmLanguage"
-      }
-    ]
-  },
-  "scripts": {
-    "vscode:prepublish": "tsc -p ./",
-    "compile": "tsc -watch -p ./",
-    "update-vscode": "node ./node_modules/vscode/bin/install",
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
-  "devDependencies": {
-    "@types/mocha": "^2.2.33",
-    "@types/node": "^6.0.52",
-    "tslint": "^5.2.0",
-    "tslint-config-standard": "^5.0.2",
-    "typescript": "^2.1.5",
-    "vscode": "^1.0.3"
-  },
-  "dependencies": {
-    "vscode-languageclient": "^3.1.0"
-  }
+	"name": "aoe2-rms-client",
+	"displayName": "AoE2 Random Map Scripting",
+	"description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
+	"author": "Mangudai",
+	"icon": "icon.png",
+	"license": "MIT",
+	"version": "0.3.0",
+	"publisher": "deltaidea",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mangudai/vscode.git"
+	},
+	"homepage": "https://github.com/mangudai/vscode",
+	"bugs": {
+		"url": "https://github.com/mangudai/vscode/issues"
+	},
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"scripts": {
+		"update-vscode": "node ./node_modules/vscode/bin/install",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"dependencies": {
+		"vscode": "1.1.18",
+		"vscode-languageclient": "4.2.1"
+	}
 }
