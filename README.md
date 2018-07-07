@@ -10,6 +10,10 @@ In Visual Studio Code open the Extensions sidebar (`Ctrl/Cmd + Shift + X`), then
 
 ## Release Notes
 
+### 0.3.1
+
+- Fixed extension icon and description
+
 ### 0.3.0
 
 - Updated for latest VS Code

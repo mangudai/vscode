@@ -3,7 +3,7 @@
 	"description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
 	"author": "Mangudai",
 	"license": "MIT",
-	"version": "0.3.0",
+	"version": "0.3.1",
 	"publisher": "deltaidea",
 	"repository": {
 		"type": "git",
