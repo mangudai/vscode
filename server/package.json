@@ -1,7 +1,7 @@
 {
 	"name": "aoe2-rms-server",
 	"description": "Age of Empires 2 (AoE2) Random Map Scripting (RMS) language support",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"author": "Mangudai",
 	"license": "MIT",
 	"engines": {
