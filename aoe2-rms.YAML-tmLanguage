@@ -112,4 +112,4 @@ repository:
 
   number:
     name: constant.numeric.aoe2-rms
-    match: \b\d+\b
+    match: (\B\-|\b)\d+\b

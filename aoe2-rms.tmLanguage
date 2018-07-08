@@ -295,7 +295,7 @@
         <key>name</key>
         <string>constant.numeric.aoe2-rms</string>
         <key>match</key>
-        <string>\b\d+\b</string>
+        <string>(\B\-|\b)\d+\b</string>
       </dict>
     </dict>
   </dict>
